@@ -1,0 +1,384 @@
+ .shopping-cart-box{
+            position: fixed;
+            right:0;
+            margin-right: 5px;
+            margin-left: 5px;
+            max-width:450px ;
+            color: black;
+            background: #cccccc;
+            border-radius: 4px;
+            padding: 10px;
+            font: small Verdana, Geneva, sans-serif;
+            margin-top: 220px;
+            display:none;
+}
+.shopping-cart-box a{
+            color: black;
+            text-decoration:none;
+        }        
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+p {
+  line-height: 1.75;
+   }
+
+a {
+  color: #fed136; }
+  a:hover {
+    color: #fec503; }
+
+.text-primary {
+  color: #fed136 !important; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+
+
+
+  
+
+.btn {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+
+  }
+
+
+
+
+
+  
+
+
+
+#mainNav {
+  background-color: #212529; }
+  #mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    color: black;
+    font-weight: 400;
+    background-color: #fed136;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  #mainNav .navbar-brand {
+    color: #fed136;
+    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
+    #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+      color: #fec503; }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 100%;
+    font-weight: 500;
+    padding: 0.75em 0;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+      color: #fed136; }
+
+
+
+.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("../nas8.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .masthead .intro-text {
+    padding-top: 150px;
+    padding-bottom: 240px; }
+    .masthead .intro-text .intro-lead-in {
+      font-size: 22px;
+      font-style: italic;
+      line-height: 22px;
+      margin-bottom: 25px;
+      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .masthead .intro-text .intro-heading {
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 50px;
+      margin-bottom: 25px;
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+  color: white; }
+  footer span.copyright {
+    font-size: 90%;
+    line-height: 40px;
+    text-transform: none;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  footer ul.quicklinks {
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+ul.social-buttons {
+  margin-bottom: 0; }
+  ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+    background-color: #212529; }
+    ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+      background-color: #fed136; }
+div.scroll {
+height: 200px;
+overflow: scroll;
+
+}
+.list-unstyled li{
+            padding-top: 10px;
+            padding-left: 5px;
+
+        }
+.list-unstyled a{
+            color: black;
+            text-decoration:none;
+             font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+        }
+.list-unstyled {
+  width: 400px;
+}
+.list-unstyled li{
+            padding-top: 10px;
+            padding-left: 5px;
+
+        }
+.list-unstyled a{
+            color: black;
+            text-decoration:none;
+             font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+        }
+          }
+.nesto{
+  color: white;
+  font-size:15px;
+}
+.list-unstyled li{
+            padding-top: 10px;
+            padding-left: 5px;
+
+        }
+.list-unstyled a{
+            color: black;
+            text-decoration:none;
+             font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+        }
+.nesto{
+  color: white;
+  font-size:15px;
+}
+/*za formu u kontaktu*/
+.n, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: white
+}
+
+input[type=submit] {
+    color: white;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.carousel-inner img {
+      width: 80%;
+
+      display: block;
+  margin: auto;
+  }
+  .sections {
+  float: left;
+  display: inline-block;
+  padding: 5px;
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ 
+    
+
+.con {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+
+}
+
+/* Hide the browser's default checkbox */
+.con input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color:  #ccc;
+}
+
+/* On mouse-over, add a grey background color */
+
+
+/* When the checkbox is checked, add a blue background */
+.con input:checked ~ .checkmark {
+    background-color: black;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.con input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.con .checkmark:after {
+    left: 5px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid #fed136;;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.butt {
+  background-color: black;
+  color: #fed136;
+  font-size:90%;
+  cursor: pointer;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent; }
+    #mainNav .navbar-brand {
+      font-size: 1.75em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s; }
+    #mainNav .navbar-nav .nav-item .nav-link {
+      padding: 1.1em 1em !important; }
+    #mainNav.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: #212529; }
+      #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0; } }
+@media (min-width: 768px) {
+    div.scroll {
+height: 200px;
+overflow: scroll;}
+  .shopping-cart-box{
+            position: fixed;
+            right:0;
+            margin-right: 10px;
+            margin-top: 172px;
+            max-width:410px ;
+            color: black;
+            background: #FDE281;
+            border-radius: 4px;
+            padding: 10px;
+ 
+ font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;          
+           
+            display:none;
+        }
+  .masthead{
+    text-align: left;
+  }
+  .masthead .intro-text {
+    padding-top:180px;
+    padding-bottom: 300px; }
+    .masthead .intro-text .intro-lead-in {
+      font-size: 40px;
+      font-style: italic;
+      line-height: 40px;
+      margin-bottom: 25px;
+      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .masthead .intro-text .intro-heading {
+      font-size: 75px;
+      font-weight: 700;
+      line-height: 75px;
+      margin-bottom: 50px;
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; } 
+    .p{
+  padding-left: 0px
+ }}
